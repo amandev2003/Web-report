@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Event Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="./index.html">Home</a>
+      <a href="./announcement.html" target="_blank">Announcement</a>
+      <a class="active" href="./events.html" target="_blank">Events</a>
+      <a href="./login.html" target="_blank">Login</a>
+    </div>
+    <div class="logo">
+      <img src="./logo-2-376x108.png" alt="Company Logo" />
+    </div>
+    <div class="event-container">
+      <h1 style="color: white">College Events</h1>
+      <ul id="event-list">
+        <!-- Events will be displayed here -->
+      </ul>
+      <div class="event-form">
+        <h2>Add New Event</h2>
+        <input type="text" id="event-name" placeholder="Event Name" required />
+        <input type="date" id="event-date" required />
+        <button id="add-event">Add Event</button>
+      </div>
+    </div>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>
+        If you have any questions or need more information, please contact us:
+      </p>
+      <address>
+        Email: <a href="mailto:info@example.com">info@example.com</a><br />
+        Phone: <a href="tel:+1234567890">123-456-7890</a>
+      </address>
+    </section>
+    <script src="script.js"></script>
+    <footer>&copy; 2023 VELTECH UNIVERSITY</footer>
+  </body>
+</html>

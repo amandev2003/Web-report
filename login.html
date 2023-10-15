@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="./index.html">Home</a>
+      <a href="./announcement.html" target="_blank">Announcement</a>
+      <a href="./events.html" target="_blank">Events</a>
+      <a class="active" href="./login.html" target="_blank">Login</a>
+    </div>
+    <div class="logo">
+      <img src="./logo-2-376x108.png" alt="Company Logo" />
+    </div>
+    <div class="login">
+      <h1 class="">Login</h1>
+      <form id="login">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Login</button>
+        <p id="error-message" class="error-message"></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

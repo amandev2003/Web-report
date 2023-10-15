@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Veltech University Announcements</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="./index.html">Home</a>
+      <a class="active" href="./announcement.html" target="_blank"
+        >Announcement</a
+      >
+      <a href="./events.html" target="_blank">Events</a>
+      <a href="./login.html" target="_blank">Login</a>
+    </div>
+    <div class="logo">
+      <img src="./logo-2-376x108.png" alt="Company Logo" />
+    </div>
+
+    <main>
+      <div class="announcement-form">
+        <h2>Add New Announcement</h2>
+        <input type="text" id="announcement-title" placeholder="Title" />
+        <input type="text" id="announcement-place" placeholder="Place" />
+        <textarea id="announcement-content" placeholder="Content"></textarea>
+        <button class="announcement-button" onclick="addAnnouncement()">
+          Add
+        </button>
+      </div>
+      <div class="announcements-list">
+        <h2>Announcements</h2>
+        <ul id="announcements">
+          <!-- Announcements will be displayed here -->
+        </ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
